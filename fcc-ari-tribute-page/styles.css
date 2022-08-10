@@ -1,0 +1,127 @@
+body {
+    margin: 0 auto;
+    font-family: "Century Gothic", monospace;
+    background-color: #fff8fa;
+  }
+  
+  main, footer {
+    text-align: center;
+  }
+  
+  #header > p {
+    font-size: 0.9rem;
+    margin: 2px 0 27px 0;
+    position: sticky;
+    top: 0;
+    background-color: pink;
+    opacity: 0.7;
+  }
+  
+  h1 {
+    margin: 17px 0 0 0;
+  }
+  
+  .bold {
+     font-weight: bold;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  #image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  #img-caption {
+    font-size: 0.75em;
+    margin-top: 2px;
+  }
+  
+  #tribute-info > p {
+    margin: 47px 0 20px 0;
+    background-color: pink;
+  }
+  
+  ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    text-align: left;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  ul li:before {
+      content: "\2665 \020";
+      color: #9c5597;
+  }
+  
+  #more-info {
+    padding: 17px 7px;
+    font-size: 0.95rem;
+    margin: 0 0 17px 0;
+  }
+  
+  a {
+    color: #3666fa;
+  }
+  
+  a:hover {
+    color: #819ffc;
+  }
+  
+  a:active {
+    color: #fc819f;
+  }
+  
+  footer {
+    background-color: #ffe5eb;
+    padding: 12px;
+  }
+  
+  footer > p {
+    margin: 0;
+    font-size: 0.7rem;
+    color: #9c5597;
+  }
+  
+  /* divider base by https://codepen.io/stg -> https://codepen.io/stg/pen/ZYYQMJ */
+          .divider {								/* minor cosmetics */
+              display: table; 
+              font-size: 20px; 
+              text-align: center; 
+              width: 27%; 						/* divider width */
+              margin: 37px auto;					/* spacing above/below */
+          }
+          .divider span { display: table-cell; position: relative; }
+          .divider span:first-child, .divider span:last-child {
+              width: 50%;
+              top: 13px;							/* adjust vertical align */
+              -moz-background-size: 100% 2px; 	/* line width */
+              background-size: 100% 2px; 			/* line width */
+              background-position: 0 0, 0 100%;
+              background-repeat: no-repeat;
+          }
+          .divider span:first-child {				/* color changes in here */
+              background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#9c5597));
+              background-image: -webkit-linear-gradient(180deg, transparent, #9c5597);
+              background-image: -moz-linear-gradient(180deg, transparent, #9c5597);
+              background-image: -o-linear-gradient(180deg, transparent, #9c5597);
+              background-image: linear-gradient(90deg, transparent, #9c5597);
+          }
+          .divider span:nth-child(2) {
+              color: #9c5597; padding: 0px 5px; width: auto; white-space: nowrap;
+          }
+          .divider span:last-child {				/* color changes in here */
+              background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9c5597), to(transparent));
+              background-image: -webkit-linear-gradient(180deg, #9c5597, transparent);
+              background-image: -moz-linear-gradient(180deg, #9c5597, transparent);
+              background-image: -o-linear-gradient(180deg, #9c5597, transparent);
+              background-image: linear-gradient(90deg, #9c5597, transparent);
+          }
