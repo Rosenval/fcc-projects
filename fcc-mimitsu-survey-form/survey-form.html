@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>Survey </title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
   </head>
   <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <h1 id="title">Mimitsu Milkshakes Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform!</p>
     <form id="survey-form">
       <label id="name-label">Name<input id="name" type="text" class="margin-bot" placeholder="Enter your name" required></label>
       <label id="email-label">Email<input id="email" type="email"  class="margin-bot" placeholder="Enter your email" required></label>
@@ -20,16 +22,19 @@
         <option>Other</option>
       </select>
     </label>
-    <p class="questions">Would you recommend freeCodeCamp to a friend?</p>
+    <p class="questions">Would you recommend Mimitsu Milkshakes to a friend?</p>
     <label><input type="radio" name="recommend" class="inline" value="definitely" checked>Definitely</label>
     <label><input type="radio" name="recommend" class="inline" value="maybe">Maybe</label>
     <label><input type="radio" name="recommend" class="inline" value="not-sure">Not sure</label>
 
-    <p class="questions">What would you like to see improved?</p>
-    <label><input type="checkbox" value="fend" class="inline">Frontend</label>
-    <label><input type="checkbox" value="bend" class="inline">Backend</label>
-    <label><input type="checkbox" value="forum" class="inline">Forum</label>
-    <label><input type="checkbox" value="challenges" class="inline">Challenges</label>
+    <p class="questions">What are your favorite milkshake flavors?</p>
+    <label><input type="checkbox" class="inline" value="strawberry">Strawberry Milkshake</label>
+    <label><input type="checkbox" class="inline" value="chocolate">Chocolate Milkshake</label>
+    <label><input type="checkbox" class="inline" value="banana">Banana Milkshake</label>
+    <label><input type="checkbox" class="inline" value="vanilla">Vanilla Milkshake</label>
+    <label><input type="checkbox" class="inline" value="nutella">Nutella Milkshake</label>
+    <label><input type="checkbox" class="inline" value="mocha">Mocha Milkshake</label>
+    <label><input type="checkbox" class="inline" value="cookies-and-cream">Cookies and Cream Milkshake</label>
     <label class="questions margin-bot">
       Any comments or suggestions?
       <textarea placeholder="Enter your comment here..." rows="5"></textarea>
